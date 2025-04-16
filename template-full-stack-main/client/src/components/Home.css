@@ -1,0 +1,37 @@
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0.6%); 
+    }
+}
+
+#welcome-message a {
+    display: flex;
+}
+
+#welcome-message {
+    max-width: 880px;
+}
+
+#welcome-web-developer {
+    font-family: "Dancing Script", cursive;
+    /* transform: translatex(16%);
+    scale: 160%; */
+}
+
+#welcome-message img {
+transform: rotate(180deg) translateY(0px);
+height: 36px;
+padding: 8px;
+margin-right: 10px;
+}

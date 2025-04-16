@@ -1,0 +1,70 @@
+
+#login-form{
+    margin: auto;
+    /* height: 520px; */
+    width: 480px;
+    padding-top: 20px;
+    border-left: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 40px rgba(0,0,0,0.2);
+    margin-bottom: 100px;
+}
+
+#login-form * {
+    /* background-color: white; */
+
+}
+
+#login-form > div > form {
+    width: 100%;
+    border: none;
+}
+
+#login-form-top-part {
+    margin: auto;
+    width: 480px;
+    margin-top: 40px;
+    background: none;
+}
+
+#login-form-top-part * {
+    /* background-color: white; */
+    margin-bottom: 0;
+}
+
+.login-or-sign-up-selection {
+    display: flex;
+    font-size: 24px;
+    background: none;
+}
+
+.login-or-sign-up-selection div {
+    width: 50%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-bottom: none;
+    margin-bottom: 20px;
+    display: flex;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: white;
+}
+
+.login-or-sign-up-selection div.inactive {
+    color: rgb(160, 160, 160);
+    border-bottom: solid;
+    border-bottom-color: black;
+}
+
+.login-or-sign-up-selection div p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
